@@ -1,0 +1,125 @@
+body {
+  overflow-x: hidden;
+  /* display: flex; */
+
+  height: 100vh;
+  background: #e5e5e5 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  justify-content: center;
+}
+
+img {
+  box-shadow: black;
+}
+
+.btn-back {
+  justify-content: left !important;
+  width: 38px;
+  height: 30px;
+  border: none;
+  margin-top: 25px;
+  margin-left: 40px;
+  background-color: #c4c4c4;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.container {
+  width: 400px !important;
+  margin-top: 25px;
+}
+
+.title-edit-profile {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px !important;
+  line-height: 64px;
+  display: abslote;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.btn-profile {
+  width: 100%;
+  height: 30px;
+  border: none;
+  margin-top: 40px;
+  background-color: #ffb68d;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: small;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+  margin: 2px 0;
+}
+
+.input label {
+  font-size: 1em;
+  font-weight: 550;
+}
+
+.input .form-control {
+  background: #fff1e0;
+}
+
+.btn-batal {
+  width: 100%;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  background-color: #c4c4c4;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: small;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
+}
+
+.btn-simpan {
+  width: 100%;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  background-color: #ffb68d;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: small;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 760px) {
+  .container {
+    width: 100%;
+  }
+
+  body {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .container {
+    width: 900px;
+    height: 550px;
+  }
+}

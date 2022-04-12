@@ -1,0 +1,127 @@
+body{
+    background: url(../img/background.png) !important ;
+    background-size: cover !important;
+    background-repeat:no-repeat !important;
+}
+
+p{
+    text-align: justify;
+}
+
+#btn_masuk{
+    background-color: #FFB68D;
+}
+
+#btn_daftar{
+    background-color: #ded9d9;
+}
+
+#btn_daftar:hover{
+    background-color: #c4c0c0;
+}
+
+#btn_masuk:hover{
+    background-color: #cc9372;
+}
+
+.container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(8,1fr);
+	gap: 10px;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.container-left {
+	margin-top: 20px;
+	grid-column: 1/9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 20px !important;
+	padding:10px;
+    max-width: 500px;
+}
+
+.container-right {
+	grid-column: 1/9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+    margin-right: 20px;
+    
+}
+
+.container-right img{
+    max-width: 90%;
+}
+
+@media screen and (min-width: 450px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media screen and (min-width: 760px) {
+
+	.container {
+		width: 100%;
+	}
+
+	body {
+		height: 100vh;
+	}
+	.container-left {
+		grid-column: 1/6;
+		margin-bottom: 0;
+		padding: 20px;
+
+	}
+	.container-left img {
+		width: 85%;
+	}
+
+	.container-left .text {
+		padding: 10px 0 0;
+		width: 350px;
+	}
+
+	.container-left h1 {
+		font-size: 1.5em;
+	}
+
+	.container-right h2 {
+	display: block;
+}
+
+
+	.container-left p {
+		font-size: .9em;
+	}
+
+	.container-right {
+		grid-column: 6/9;
+	}
+}
+
+
+@media screen and (min-width: 960px) {
+	.container {
+		width: 900px;
+		height: 550px;
+	}
+
+	.container-left {
+		padding: 0;
+	}
+
+	.container-left .text {
+		padding: 10px 0 0;
+		width: 480px;
+	}
+}
+
